@@ -17,3 +17,5 @@ while bemenet !=jelszo:
 
 if bemenet == jelszo:
     print('Hozzaferes megadva. ')
+
+    #commitolás
