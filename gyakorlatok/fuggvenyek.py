@@ -10,3 +10,5 @@ def nev_printer(nev_lista):
 
 nev_printer(nevek1)
 nev_printer(nevek2)
+
+#commit , majd push
