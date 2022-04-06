@@ -1,0 +1,17 @@
+git status || milyen változások történtek az utolsó commit óta 
+git add || megnevezzük a fájlt 
+git commit -m  || commitolás szöveggel
+git log || megnézni milyen commitok történtek , mikor történtek 
+git remote add origin "github repository link" || repository ra csatlakozás, elnevezése origin néven 
+git push -u origin master || elküldi a commitot az origin master branch-be 
+git pull origin master || letölti a githubon lévő verziót a fájlokból
+git diff HEAD || megmutatja a különbségeket , melyik fájlban , mi lett módosítva 
+git add "octofamily/octodog.txt" || hozzá adja az alábbi mappába lévő fájlt
+git diff --staged || megmutatja mi a mi verziónk illetve a github repositoryban tárolt fájl közötti különbségeket
+git reset ??
+git checkout ??
+git branch clean_up || clean_up branch létrehozása
+git chekout clean_up  || clean_up branchre váltás 
+git rm '*.txt' || minden txt eltávolítása a repository-inkból 
+git merge "xy" || mindig átváltani arra a branchre amire akarod mergelni a másik branchet
+git branch -d "xy" || törli a megadott branchet.
