@@ -8,8 +8,8 @@ git pull origin master || letölti a githubon lévő verziót a fájlokból
 git diff HEAD || megmutatja a különbségeket , melyik fájlban , mi lett módosítva 
 git add "octofamily/octodog.txt" || hozzá adja az alábbi mappába lévő fájlt
 git diff --staged || megmutatja mi a mi verziónk illetve a github repositoryban tárolt fájl közötti különbségeket
-git reset ??
-git checkout || átmegy az adott branch-re
+git reset || Head vissza állítása egy meghatározott állapotba
+git checkout || átvált az adott brancher, vissza lehet állni az előző commit verzióra
 git branch clean_up || clean_up branch létrehozása
 git chekout clean_up  || clean_up branchre váltás 
 git rm '*.txt' || minden txt eltávolítása a repository-inkból 
