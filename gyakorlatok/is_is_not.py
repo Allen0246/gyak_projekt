@@ -29,3 +29,8 @@ if type(sz1) is személy:
     print('Személy típus!')
 else:
     print(type(sz1))
+
+print(sz1 is sz2)
+
+if isinstance(sz1, személy):
+    print('Személy típus!')
