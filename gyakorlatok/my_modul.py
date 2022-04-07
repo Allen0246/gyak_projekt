@@ -1,12 +1,13 @@
 
+
+
 def hello():
     print('Hello a Mymodule-ból')
 
-    szin = 'zöld'
+    
+szin = 'zöld'
+nevek = ['Juci', 'Ani', 'Ili', 'Barbi']
 
-    nevek = ['Juci', 'Ani', 'Ili', 'Barbi']
 
-    print(szin)
-
-    class Osztaly:
-        pass
+class Osztaly:
+       pass
