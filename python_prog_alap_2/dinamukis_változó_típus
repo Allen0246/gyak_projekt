@@ -166,6 +166,12 @@ def fuggveny(nev,becenev=None):
         print(f"Hello {becenev}")
 fuggveny("Peter", becenev='Peti')
 
+from enum import Enum
+
+class Muvelet(Enum):
+    Összedás = 1
+    Szorzás = 2
+
 #szamologép
 def szorzas (szamok):
     result = 1
@@ -176,7 +182,10 @@ def szorzas (szamok):
 parameter=15,5
 print(szorzas(parameter))
 
-def szamologep(*args):
-    print(sum(args))
+def szamologep(*args, muvelet=Muvelet.Szorzás):
+    if muvelet == Muvelet.Összedás:
+        print(sum(args))
+    if muvelet==Muvelet.Szorzás:
+        print(szorzas(args))
 
-szamologep(2,3,4,5,6,7,8,9)
+szamologep(2,3,8,9,muvelet= Muvelet.Szorzás)
