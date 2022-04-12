@@ -189,3 +189,9 @@ def szamologep(*args, muvelet=Muvelet.Szorzás):
         print(szorzas(args))
 
 szamologep(2,3,8,9,muvelet= Muvelet.Szorzás)
+
+
+def adatok(**kwargs):
+    print(kwargs)
+
+adatok(nev= 'Peter', kedvenc_turborago_automarkaja= 'Tesla' , eletkor= 12)
