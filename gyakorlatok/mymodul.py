@@ -8,7 +8,7 @@ class személy:
         self.név = név
         self.kor = kor
     
-    def show_fields(self)
+    def show_fields(self):
         print(self.név, self.kor)
 
 

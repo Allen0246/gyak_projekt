@@ -1,3 +1,3 @@
 import mymodul
 
-#mymodul.hello()
+mymodul.hello()
