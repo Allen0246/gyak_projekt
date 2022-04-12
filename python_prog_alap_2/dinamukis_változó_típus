@@ -127,6 +127,7 @@ nevek =  'Peter', 'Andrea', 'David', 'Bálint'
 nev1, nev2, nev3, nev4 = nevek
 print (nev1, nev2, nev3, nev4)
 print(nev1)
+
 #tupple össze hasonlítása
 nevek =  'Peter', 'Andrea',['Dezső', 'András',2], 'David', 'Bálint',[1,2,3]
 nevek2 =  'Peter', 'Andrea',['Dezső', 'András',2], 'David', 'Bálint', [1,2,3]
@@ -135,3 +136,21 @@ if nevek==nevek2:
     print("egyforma")
 else:
     print("nem egyforma")
+
+#zipelés
+szamok ='1 2 3 4 5 6 7 8 9'.split()
+szam_nevek ='egy kettő három négy öt hat hét nyolc kilenc'.split()
+
+print(szamok)
+result = zip(szamok, szam_nevek)
+print(dict(result))
+
+#zip össze mergel, két listát, tuple-t ... mérte különbözet nem számít
+
+egyforma = True
+
+for nevek, nevek2 in zip(nevek, nevek2):
+    if nevek !=nevek2:
+        egyforma = False
+        break
+print(egyforma)
