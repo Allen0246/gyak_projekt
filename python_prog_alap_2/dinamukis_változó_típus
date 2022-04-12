@@ -199,6 +199,7 @@ adatok(nev= 'Peter', kedvenc_turborago_automarkaja= 'Tesla' , eletkor= 12)
 x= 'Globális változó'
 
 def parameter_scope():
+    # global x
     x ="belső változó"
     print(x)
     def belso():
