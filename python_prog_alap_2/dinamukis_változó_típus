@@ -1,13 +1,16 @@
 #number típus
 number= 12
+print(f" Integer: {number}, memory address: {id(number)}")
 print(type(number))
 
 #float típus
 number= 12.1
+print(f" FLoat: {number}, memory address: {id(number)}")
 print(type(number))
 
 #complex típus
 number= 12j
+print(f" complex: {number}, memory address: {id(number)}")
 print(type(number))
 
 #string típus
