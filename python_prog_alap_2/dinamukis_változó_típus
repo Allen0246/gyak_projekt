@@ -53,7 +53,9 @@ else:
 lista = [1,2,3,4,5]
 print(lista)
 
-lista.reverse()
+print(lista[::-1]) #visszafelé lista
+
+lista.reverse() #visszafelé lista
 print(lista)
 
 
@@ -76,3 +78,18 @@ print(lista)
 
 print(dir(str))
 print(help(str.count))
+
+lista = [10,20,30,40,50,60,70,80,90,100]
+
+uj_lista = []
+for elem in lista:
+    if elem > 30:
+        uj_lista.append(elem)
+print(uj_lista)
+
+l = [
+    elem #select
+    for elem in lista #from
+    if elem>30 #feltétel
+]
+print(l)
