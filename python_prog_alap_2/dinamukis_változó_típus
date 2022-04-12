@@ -154,3 +154,10 @@ for nevek, nevek2 in zip(nevek, nevek2):
         egyforma = False
         break
 print(egyforma)
+
+def fuggveny(nev,becenev=None):
+    if  not becenev:
+        print(f"Hello {nev}!")
+    else:
+        print(f"Hello {becenev}")
+fuggveny("Peter", becenev='')
