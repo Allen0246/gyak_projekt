@@ -48,8 +48,31 @@ if szöveg==mirror:
 else:
     print('nem jó!')
 
+
+#lista reverse
 lista = [1,2,3,4,5]
 print(lista)
 
 lista.reverse()
 print(lista)
+
+
+# A 8. pozíciótol indul
+print(szöveg.find("görög"))
+
+#2db "ö" betű van benne
+print(szöveg.count('ö'))
+
+#nagybetűs
+print(szöveg.upper())
+#kisbetűs
+print(szöveg.lower())
+
+#split listába
+lista= szöveg.split()
+print(lista)
+
+#print dri, print help
+
+print(dir(str))
+print(help(str.count))
