@@ -34,3 +34,15 @@ print(szam)
 szoveg= 'Darabolás!' #minden 2. karaktert ír ki a 6. karakterig
 print(szoveg[1:6:2])
 print(szoveg[-1:-4:-1])
+
+#tükör ??
+
+szöveg= 'görög'
+mirror =szöveg[::-1]
+
+print(mirror)
+
+if szöveg==mirror:
+    print('palindrom')
+else:
+    print('nem jó!')
