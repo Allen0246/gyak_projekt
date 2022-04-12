@@ -37,12 +37,14 @@ print(szoveg[-1:-4:-1])
 
 #tükör ??
 
-szöveg= 'görög'
+szöveg= 'indul a görög aludni'
+szöveg=szöveg.replace(' ', '')
 mirror =szöveg[::-1]
 
-print(mirror)
+print(szöveg)
 
 if szöveg==mirror:
     print('palindrom')
 else:
     print('nem jó!')
+
