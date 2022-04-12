@@ -101,8 +101,22 @@ print (utolso_elem)
 print (lista)
 
 
-for index, elem in enumerate(lista):
+for index, elem in enumerate(lista): #kiírja indexek mellé az elemket is
     print(f"{index} {elem}")
 
 for x in range(1,20,2): #kiírja a számokat 20 ig, 2 esével lépeget felfelé
     print(x)
+
+#break szemléltetése
+for x in range(10):
+    print(x)
+    if x == 11:
+        break
+else:
+    print("Ha végig futott a ciklus ez az ág lefut")
+
+#addig printeli ki míg el nem éri a 9 et
+x=0
+while x < 10:
+    print(x)
+    x+=1
