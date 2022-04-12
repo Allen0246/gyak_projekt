@@ -195,3 +195,16 @@ def adatok(**kwargs):
     print(kwargs)
 
 adatok(nev= 'Peter', kedvenc_turborago_automarkaja= 'Tesla' , eletkor= 12)
+
+x= 'Globális változó'
+
+def parameter_scope():
+    x ="belső változó"
+    print(x)
+    def belso():
+        x =' legbelsőbb'
+        print(x)
+    belso()
+
+parameter_scope()
+print(x)
