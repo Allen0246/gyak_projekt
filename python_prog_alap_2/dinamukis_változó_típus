@@ -1,0 +1,11 @@
+number= 12
+print(type(number))
+
+number= 12.1
+print(type(number))
+
+number= 12j
+print(type(number))
+
+number=' string'
+print(type(number))
