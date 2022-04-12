@@ -1,0 +1,8 @@
+virutalenv virutális környezet neve
+
+belépés : .\venv\Scripts\activate 
+kilépés: deactivate
+
+pip freeze --> kilistázza a feltelepítet libary-ket a virtuális környezeten belül
+pip freeze > requirements.txt --> belemásolja a libary-ket
+pip install -r .\requirements.txt --> az adott fájlban található libary-ket feltelepíti
