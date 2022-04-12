@@ -93,3 +93,11 @@ l = [
     if elem>30 #feltétel
 ]
 print(l)
+""" lista.append('szoveg')
+print(lista) """
+
+utolso_elem = lista.pop() #leveszi az utolsó elemet
+print (utolso_elem)
+print (lista)
+
+
