@@ -120,3 +120,18 @@ x=0
 while x < 10:
     print(x)
     x+=1
+
+#tuple nevek
+nevek =  'Peter', 'Andrea', 'David', 'Bálint'
+
+nev1, nev2, nev3, nev4 = nevek
+print (nev1, nev2, nev3, nev4)
+print(nev1)
+#tupple össze hasonlítása
+nevek =  'Peter', 'Andrea',['Dezső', 'András',2], 'David', 'Bálint',[1,2,3]
+nevek2 =  'Peter', 'Andrea',['Dezső', 'András',2], 'David', 'Bálint', [1,2,3]
+
+if nevek==nevek2:
+    print("egyforma")
+else:
+    print("nem egyforma")
