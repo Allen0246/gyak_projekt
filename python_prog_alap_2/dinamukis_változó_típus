@@ -1,4 +1,7 @@
 #number típus
+from sqlite3 import paramstyle
+
+
 number= 12
 print(f" Integer: {number}, memory address: {id(number)}")
 print(type(number))
@@ -155,9 +158,25 @@ for nevek, nevek2 in zip(nevek, nevek2):
         break
 print(egyforma)
 
+#def függvény , +none
 def fuggveny(nev,becenev=None):
     if  not becenev:
         print(f"Hello {nev}!")
     else:
         print(f"Hello {becenev}")
-fuggveny("Peter", becenev='')
+fuggveny("Peter", becenev='Peti')
+
+#szamologép
+def szorzas (szamok):
+    result = 1
+    for _ in szamok:
+        result*=_
+    return result
+
+parameter=15,5
+print(szorzas(parameter))
+
+def szamologep(*args):
+    print(sum(args))
+
+szamologep(2,3,4,5,6,7,8,9)
