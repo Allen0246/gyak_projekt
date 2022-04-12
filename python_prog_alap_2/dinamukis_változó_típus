@@ -9,3 +9,11 @@ print(type(number))
 
 number=' string'
 print(type(number))
+
+a=8
+b=3
+print(8%3)
+
+a, b, c ,d = 8 , 3 ,"Hello" , [1,2,4,5]
+
+print(type(c))
