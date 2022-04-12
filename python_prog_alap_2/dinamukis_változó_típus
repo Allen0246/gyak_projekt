@@ -1,19 +1,28 @@
+#number típus
 number= 12
 print(type(number))
 
+#float típus
 number= 12.1
 print(type(number))
 
+#complex típus
 number= 12j
 print(type(number))
 
+#string típus
 number=' string'
 print(type(number))
 
+#maradékos osztás
 a=8
 b=3
 print(8%3)
 
+#többet meglehet határozni
 a, b, c ,d = 8 , 3 ,"Hello" , [1,2,4,5]
-
 print(type(c))
+
+ #hatványozás
+szam = pow(2, 3)
+print(szam)
