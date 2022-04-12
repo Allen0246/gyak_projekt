@@ -101,3 +101,5 @@ print (utolso_elem)
 print (lista)
 
 
+for index, elem in enumerate(lista):
+    print(f"{index} {elem}")
