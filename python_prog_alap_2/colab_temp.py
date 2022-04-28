@@ -1,4 +1,5 @@
 #number típus
+from re import X
 from sqlite3 import paramstyle
 
 
@@ -209,3 +210,12 @@ def parameter_scope():
 
 parameter_scope()
 print(x)
+
+
+if __name__ =="main":
+    parameter_scope()
+    print(X)
+    print(sum((1, 2, 3, 4, 5)))
+
+    adatok(nev= 'Peter', kedvenc_turborago_automarkaja= 'Tesla' , eletkor= 12)
+    szamologep(2,3,8,9,muvelet= Muvelet.Szorzás)
